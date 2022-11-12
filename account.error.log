@@ -1,0 +1,353 @@
+[31merror[39m: getaddrinfo EAI_AGAIN rabbitmq
+[31merror[39m: getaddrinfo EAI_AGAIN rabbitmq
+[31merror[39m: getaddrinfo EAI_AGAIN rabbitmq
+[31merror[39m: getaddrinfo EAI_AGAIN rabbitmq
+[31merror[39m: getaddrinfo EAI_AGAIN rabbitmq
+[31merror[39m: getaddrinfo EAI_AGAIN rabbitmq
+[31merror[39m: POST /api/v2/customer 403 - 265.779 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 403 - 1.878 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 403 - 0.928 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer 403 - 0.800 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer 401 - 1.172 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 0.720 ms - message: Forbidden
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 403 - 1.828 ms - message: Forbidden
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 403 - 0.976 ms - message: Forbidden
+[31merror[39m: POST /api/v2/customer 403 - 163.951 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 403 - 1.464 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 403 - 1.169 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer 403 - 0.908 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer 401 - 0.884 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 1.349 ms - message: Forbidden
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 403 - 1.257 ms - message: Forbidden
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 403 - 1.147 ms - message: Forbidden
+[31merror[39m: Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+[31merror[39m: getaddrinfo EAI_AGAIN rabbitmq
+[31merror[39m: POST /api/v2/customer 403 - 160.190 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 403 - 1.451 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 403 - 1.305 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer 403 - 0.960 ms - message: Forbidden
+[31merror[39m: GET /api/v2/customer 401 - 1.102 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 1.080 ms - message: Forbidden
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 403 - 1.454 ms - message: Forbidden
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 403 - 1.190 ms - message: Forbidden
+[31merror[39m: Error: Forbidden
+    at authenticate (/home/node/app/src/middlewares/auth.js:14:30)
+[31merror[39m: GET /api/v2/customer 403 - 168.900 ms - message: Forbidden
+[31merror[39m: Error: Forbidden
+    at authenticate (/home/node/app/src/middlewares/auth.js:14:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[31merror[39m: POST /api/v2/customer 403 - 2.858 ms - message: Forbidden
+[31merror[39m: Error: Forbidden
+    at authenticate (/home/node/app/src/middlewares/auth.js:14:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[31merror[39m: POST /api/v2/customer 403 - 1.797 ms - message: Forbidden
+[31merror[39m: Error: Forbidden
+    at authenticate (/home/node/app/src/middlewares/auth.js:14:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[31merror[39m: POST /api/v2/customer 403 - 25.656 ms - message: Forbidden
+[31merror[39m: Error: Forbidden
+    at authenticate (/home/node/app/src/middlewares/auth.js:14:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[31merror[39m: POST /api/v2/customer 403 - 3.791 ms - message: Forbidden
+[31merror[39m: Error: Forbidden
+    at authenticate (/home/node/app/src/middlewares/auth.js:14:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[31merror[39m: POST /api/v2/customer 403 - 2.915 ms - message: Forbidden
+[31merror[39m: Error: Forbidden
+    at authenticate (/home/node/app/src/middlewares/auth.js:14:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[31merror[39m: POST /api/v2/customer 403 - 3.032 ms - message: Forbidden
+[31merror[39m: Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+[31merror[39m: Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+[31merror[39m: POST /api/v2/customer 400 - 573.485 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 400 - 57.742 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 400 - 46.001 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer 400 - 45.032 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: GET /api/v2/customer 401 - 0.963 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 2.347 ms - message: Forbidden
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 52.609 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 40.335 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: POST /api/v2/customer 400 - 596.182 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 400 - 50.650 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 400 - 47.539 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer 400 - 53.801 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: GET /api/v2/customer 401 - 0.851 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 1.764 ms - message: Forbidden
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 39.877 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 40.508 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: POST /api/v2/customer 400 - 737.644 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 400 - 51.597 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 400 - 40.800 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer 400 - 44.954 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: GET /api/v2/customer 401 - 0.861 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 1.637 ms - message: Forbidden
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 52.488 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 38.418 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: POST /api/v2/customer 400 - 926.044 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 400 - 45.666 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 400 - 61.918 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer 400 - 43.921 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: GET /api/v2/customer 401 - 1.047 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 1.920 ms - message: Forbidden
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 41.612 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 54.444 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: getaddrinfo EAI_AGAIN rabbitmq
+[31merror[39m: POST /api/v2/customer 400 - 471.027 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 400 - 45.331 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 400 - 63.801 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer 400 - 44.475 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: GET /api/v2/customer 401 - 0.890 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 1.518 ms - message: Forbidden
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 35.632 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 47.291 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: POST /api/v2/customer 400 - 544.090 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 400 - 54.339 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 400 - 41.594 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer 400 - 45.975 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: GET /api/v2/customer 401 - 0.956 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 1.741 ms - message: Forbidden
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 56.249 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 37.865 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: POST /api/v2/customer 400 - 359.315 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 400 - 38.724 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 400 - 59.468 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer 400 - 39.649 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: GET /api/v2/customer 401 - 0.936 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 1.674 ms - message: Forbidden
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 34.539 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 45.490 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: POST /api/v2/customer 400 - 360.425 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/profile-image 400 - 43.240 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer/PcFvJwmCBKUqp1WmfM29JouLc0J3/profile-image 400 - 58.769 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: GET /api/v2/customer 400 - 45.604 ms - message: SequelizeConnectionError: SequelizeConnectionError: database "template-service-test" does not exist
+    at Client._connectionCallback (/home/narzaut/Documents/template-service/node_modules/sequelize/src/dialects/postgres/connection-manager.js:189:24)
+    at Client._handleErrorWhileConnecting (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:305:19)
+    at Client._handleErrorMessage (/home/narzaut/Documents/template-service/node_modules/pg/lib/client.js:325:19)
+    at Connection.emit (node:events:390:28)
+    at /home/narzaut/Documents/template-service/node_modules/pg/lib/connection.js:114:12
+    at Parser.parse (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/parser.ts:104:9)
+    at Socket.<anonymous> (/home/narzaut/Documents/template-service/node_modules/pg-protocol/src/index.ts:7:48)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+[31merror[39m: GET /api/v2/customer 401 - 0.901 ms - message: Unauthorized
+[31merror[39m: GET /api/v2/customer 403 - 2.041 ms - message: Forbidden
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 40.584 ms - message: SequelizeConnectionError: database "template-service-test" does not exist
+[31merror[39m: database "template-service-test" does not exist
+[31merror[39m: PUT /api/v2/customer/mA1fqTIpYcR1b1gXIbHFT454Lfj2/description 400 - 50.380 ms - message: SequelizeConnectionError: database "template-service-test" does not exist

@@ -1,0 +1,61 @@
+networks:
+  db_backend:
+    external: true
+
+volumes:
+  postgres:
+    driver: local
+
+services:
+  rabbitmq:
+    image: "rabbitmq:3.10-management"
+    hostname: "rabbitmq-test"
+    container_name: Rabbitmq-test
+    restart: always
+    ports:
+      - 15672:15672
+      - 5672:5672
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    labels:
+      NAME: "rabbitmq"
+    networks:
+      - db_backend
+  postgres:
+    image: postgis/postgis:14-3.3
+    container_name: postgres
+    restart: always
+    user: postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=template-service
+    ports:
+      - '5432:5432'
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - db_backend
+
+  template:
+    container_name: template-service
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    
+    ports:
+      - 4123:4123
+    restart: always
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    networks:
+      - db_backend

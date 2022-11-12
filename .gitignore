@@ -1,0 +1,8 @@
+node_modules
+.env
+src/public/background
+src/public/profiles
+src/config/certs/postgres-ca-cert.crt
+src/config/certs/simple-comercio-firebase-admin.json
+template.error.log
+.vscode

@@ -1,0 +1,213 @@
+openapi: 3.0.1
+info:
+  title: Simple Comercio
+  description: Template Service
+  contact:
+    email: sc@simplecomercio.com
+  version: 0.0.1
+servers:
+  - url: 'http://localhost:4123/api/v2'
+    variables: {}
+    description: Servidor de desarrollo
+tags:
+  - name: Customer
+    description: Administración de clientes
+paths:
+  /customer:
+    get:
+      tags:
+        - Customer
+      summary: Lista clientes
+      operationId: listCustomers
+      parameters:
+        - in: query
+          name: filter
+          description: 'Ej: {"id": "60116f6821563333a5895749", "name": "claudio"}'
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Correcto.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CustomerResponse'
+    post:
+      tags:
+        - Customer
+      summary: Crea un cliente
+      operationId: createCustomer
+      requestBody:
+        description: Datos del cliente
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Customer'
+        required: true
+      responses:
+        '201':
+          description: '--'
+        '400':
+          description: '--'
+      x-codegen-request-body-name: body
+  '/customer/{customerId}':
+    put:
+      tags:
+        - Customer
+      summary: Actualiza el cliente
+      description: Operacion para actualizar un cliente.
+      operationId: updateCustomer
+      parameters:
+        - name: customerId
+          in: path
+          description: Id del cliente a actualizar.
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Parametros a modificar.
+        content:
+          multipart/form-data:
+            schema:
+              allOf:
+                - $ref: '#/components/schemas/Customer'
+                - type: object
+                  properties:
+                    image:
+                      type: string
+                      format: binary        
+        required: true
+      responses:
+        '200':
+          description: '--'
+          content: {}
+        '400':
+          description: '--'
+          content: {}
+        '404':
+          description: '--'
+          content: {}
+      x-codegen-request-body-name: body
+    delete:
+      tags:
+        - Customer
+      summary: Borra el cliente
+      description: Operacion para eliminar un cliente.
+      operationId: deleteCustomer
+      parameters:
+        - name: customerId
+          in: path
+          description: Id del cliente a eliminar.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: '--'
+          content: {}
+        '400':
+          description: '--.'
+          content: {}
+        '404':
+          description: '--'
+          content: {}
+    get:
+      tags:
+        - Customer
+      summary: Devuelve el cliente segun el id
+      operationId: showCustomer
+      parameters:
+        - name: customerId
+          in: path
+          description: Id del cliente a devolver.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Correcto.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/CustomerResponse'
+        '404':
+          description: Not Found.
+  '/customer/profile-image':
+    put:
+      tags:
+        - Customer
+      summary: Actualiza imagen de perfil
+      description: Operacion para actualizar imagen de perfil.
+      operationId: updateCustomerProfileImage
+      requestBody:
+        description: Solo recibe un file llamado 'image'.
+        content:
+          multipart/form-data:
+            schema:
+              allOf:
+                - type: object
+                  properties:
+                    image:
+                      type: string
+                      format: binary    
+        required: true
+      responses:
+        '200':
+          description: '--'
+          content: {}
+        '400':
+          description: '--'
+          content: {}
+        '500':
+          description: '--'
+          content: {}
+    get:
+      tags:
+        - Customer
+      summary: Devuelve imagen de perfil de Customer
+      operationId: getCustomerProfileImage
+      responses:
+        '200':
+          description: Correcto.
+          content:
+            image/*:
+              schema:
+                type: string
+                format: binary
+        '404':
+          description: Not Found.
+
+components:
+  schemas:
+    Customer:
+      type: object
+      properties:
+        profileImage:
+          type: string
+          nullable: true
+    CustomerResponse:
+      type: object
+      properties:
+        id:
+          type: string
+        email:
+          type: string
+        profileImage:
+          type: string
+          format: binary
+          nullable: true
+        createdAt:
+          type: string
+        updatedAt:
+          type: string
+  securitySchemes:
+    ownAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+security:
+  - ownAuth: [] 
