@@ -9,7 +9,7 @@ Clone the repo:
 
 ```bash
 
-git@github.com:narzaut/template-service.git
+git clone git@github.com:narzaut/template-service.git
 
 cd template-service
 
